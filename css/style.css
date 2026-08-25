@@ -460,6 +460,91 @@ h1.sous-titre {
     opacity: 1;
 }
 
+/* --- PARTIE TEL --- */
+
+@media (max-width: 768px) {
+
+    nav {
+        padding: 16px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    nav ul {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .presentation {
+        padding: 0 24px 60px;
+    }
+
+    .section-passion,
+    .section-portofolio,
+    .section-contact {
+        padding: 80px 20px;
+    }
+
+    .blocText,
+    .blocText.b1,
+    .blocText.b2,
+    .blocText.b3,
+    .blocTextPortofolio,
+    .blocTextContact {
+        width: 90%;
+        max-width: 100%;
+        height: auto;    
+        left: auto;
+        margin: 60px auto 0;
+    }
+
+    .zone-text,
+    .zone-text-portofolio {
+        font-size: 1.1em; 
+        padding: 20px;
+    }
+
+    .zone-mini-titre {
+        font-size: 1.3em;
+    }
+
+    .image.i1,
+    .image.i2 {
+        position: static;
+        width: 60%;
+        height: auto;
+        margin: 20px auto;
+        right: auto;
+        left: auto;
+    }
+
+    .shard-v2 {
+        display: none;
+    }
+
+    .contact-form {
+        width: 90%;
+        max-width: 500px;
+    }
+
+    h1.sous-titre {
+        margin-top: 60px;
+        font-size: clamp(32px, 8vw, 50px);
+    }
+}
+
+@media (max-width: 480px) {
+    .zone-bouton {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .bouton-formulaire {
+        width: 100%;
+    }
+}
+
 @keyframes rotation {
     0% {
         rotate: 0deg;
