@@ -387,23 +387,19 @@ h1.sous-titre {
 }
 
 .image.i1 {
-    position: absolute;
-    display: flex;
-    width: 21%;
-    height: 10%;
-    left: 70%;
-    top: 650px;
+    display: block;
+    width: 220px;
+    height: auto;
+    margin: 40px auto;
     opacity: 0;
     transition: 1s ease;
 }
 
 .image.i2 {
-    position: absolute;
-    display: flex;
-    width: 20%;
-    height: 15%;
-    right: 70%;
-    top: 990px;
+    display: block;
+    width: 220px;
+    height: auto;
+    margin: 40px auto;
     opacity: 0;
     transition: 1s ease;
 }
