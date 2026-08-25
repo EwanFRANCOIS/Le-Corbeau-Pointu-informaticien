@@ -316,13 +316,34 @@ h1.sous-titre {
     transition: 1s ease;
 }
 
-.blocText.b1,
-.blocText.b2,
+.blocText.b1 {
+    margin-top: 100px;
+    width: 800px;
+    height: 100px;
+    background-color: var(--amethyst);
+    border-radius: 40px;
+    border: 2px solid var(--void);
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.blocText.b2 {
+    margin-top: 100px;
+    width: 800px;
+    height: 240px;
+    background-color: var(--amethyst);
+    border-radius: 40px;
+    border: 2px solid var(--void);
+    opacity: 0;
+    transition: 1s ease;
+}
+
 .blocText.b3 {
-    width: 90%;
-    max-width: 800px;
-    margin: 100px auto 0;
-    left: auto;
+    position: relative;
+    margin-top: 100px;
+    width: 800px;
+    height: 420px;
+    left: 45%;
 }
 
 .blocText.b6 {
